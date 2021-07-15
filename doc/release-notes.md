@@ -1,4 +1,4 @@
-SafeMine Core version 0.17.0.2
+SafeMine Core version 0.17.0.3
 ==========================
 
 Release is now available from:
