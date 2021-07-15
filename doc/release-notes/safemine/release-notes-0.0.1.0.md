@@ -1,7 +1,7 @@
 0.0.1.0 About Release
 =====================
 
-The 0.0.1.0 branch was created as an initial release to the public after major bug improvements were corrected. This is an initial release that will further be developed on an replaced with a full major release after initial public testing.
+The 0.0.1.0 branch was created as an initial release to the public after major bug improvements were corrected. This is an initial release that will further be developed on an replaced with a full major release after initial public testing. Fully release on July/14/2021
 
 
 0.0.1.0 Release notes
