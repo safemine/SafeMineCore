@@ -1,0 +1,39 @@
+FROM ubuntu:bionic
+LABEL maintainer="SafeMine Developers <dev@safemine.org>"
+LABEL description="Dockerised SafeMine"
+
+ARG USER_ID
+ARG GROUP_ID
+ARG TAG
+
+ENV HOME /safemine
+
+# add user with specified (or default) user/group ids
+ENV USER_ID ${USER_ID:-1000}
+ENV GROUP_ID ${GROUP_ID:-1000}
+RUN groupadd -g ${GROUP_ID} safemine && \
+    useradd -u ${USER_ID} -g safemine -s /bin/bash -m -d /safemine safemine  && \
+    mkdir /safemine/.safemine && \
+    chown safemine:safemine -R /safemine
+
+RUN apt-get update && \
+    apt-get -y install --no-install-recommends \
+    wget \
+    ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN mach=$(uname -m) \
+      && case $mach in armv7l) arch="arm-linux-gnueabihf"; ;; aarch64) arch="aarch64-linux-gnu"; ;; x86_64) arch="x86_64-linux-gnu"; ;;  *) echo "ERROR: Machine type $mach not supported."; ;; esac \
+      && wget https://github.com/safeminepay/safemine/releases/download/v${TAG}/safemine-${TAG}-$arch.tar.gz -P /tmp \
+      && tar -xvf /tmp/safemine-*.tar.gz -C /tmp/ \
+      && cp /tmp/safemine*/bin/*  /usr/local/bin \
+      && rm -rf /tmp/safemine* \
+      && chmod a+x /usr/local/bin/*
+
+USER safemine
+
+VOLUME ["/safemine"]
+
+EXPOSE 38457 9999 48457 48458
+
+WORKDIR /safemine
