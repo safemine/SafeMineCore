@@ -482,7 +482,7 @@ QPushButton - Special case, tabbar replacement buttons
 /* Sign/Verify dialog buttons */
 #btnSignMessage,
 #btnVerifyMessage {
-    border-color: #00599a;
+    border-color: #00CFD2;
     color: #818181;
 }
 
@@ -522,7 +522,7 @@ QPushButton - Special case, tabbar replacement buttons
 /* Sign/Verify dialog buttons */
 #btnSignMessage:hover:!checked,
 #btnVerifyMessage:hover:!checked {
-    border-color: #00599a;
+    border-color: #00CFD2;
     color: #c7c7c7;
 }
 
@@ -591,7 +591,7 @@ QSlider
 ******************************************************/
 
 QSlider::handle:horizontal {
-	background-color: #00599a;
+	background-color: #00CFD2;
 }
 QSlider::handle:horizontal:hover {
 	background-color: #27507a;
@@ -662,7 +662,7 @@ QToolBar / QToolButton
 ******************************************************/
 
 QToolBar {
-    background-color: #00599a;
+    background-color: #00CFD2;
 }
 
 QToolBar > QToolButton {
