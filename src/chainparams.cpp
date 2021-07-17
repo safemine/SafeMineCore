@@ -465,7 +465,7 @@ public:
         // This is fine at runtime as we'll fall back to using them as a oneshot if they don't support the
         // service bits we want, but we should get them updated to support all service bits wanted by any
         // release ASAP to avoid it where possible.
-        vSeeds.emplace_back("18.117.231.170");
+	vSeeds.emplace_back("18.177.231.170");    
 	vSeeds.emplace_back("45.79.68.40");
 	vSeeds.emplace_back("45.79.173.155");
 	vSeeds.emplace_back("157.97.171.169");
