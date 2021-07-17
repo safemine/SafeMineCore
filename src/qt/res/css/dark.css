@@ -21,7 +21,7 @@ Loaded in GUIUtil::loadStyleSheet() in guitil.cpp.
 
 #00000000
 #333
-#00599a
+#00CFD2
 #27507a
 #2d2d2e
 #323233
@@ -78,7 +78,7 @@ QComboBox,
 QPlainTextEdit,
 QLineEdit {
     background-color: #2d2d2e;
-    border-color: #00599a;
+    border-color: #00CFD2;
     color: #c7c7c7;
 }
 
@@ -280,7 +280,7 @@ QHeaderView
 ******************************************************/
 
 QHeaderView::section { /* Table Header Sections */
-    background-color: #00599a;
+    background-color: #00CFD2;
     color: #c7c7c7;
 }
 
@@ -349,7 +349,7 @@ QProgressBar {
 }
 
 QProgressBar::chunk {
-    background-color: #00599a;
+    background-color: #00CFD2;
 }
 
 /******************************************************
@@ -366,7 +366,7 @@ QPushButton
 ******************************************************/
 
 QPushButton {
-    background-color: #00599a;
+    background-color: #00CFD2;
     color: #c7c7c7;
 }
 
@@ -380,7 +380,7 @@ QPushButton:focus {
 }
 
 QPushButton:pressed {
-    background-color: #00599a;
+    background-color: #00CFD2;
 }
 
 QPushButton:disabled {
