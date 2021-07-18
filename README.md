@@ -6,11 +6,11 @@ SafeMine is built with miners as the core component that keeps the chain secure 
 
 We also have masternode support and our end goal is moving towards a carbon neutral blockchain.
 
-Total supply - 420,000,000
-Ticker - SMX
-Block Time -60 seconds
-Algorithm - X11 
-Block Rewards - 1000 SMX (5% held for faucet supply, 20% masternode rewards, 75% miner rewards)
+-Total supply - 420,000,000
+-Ticker - SMX
+-Block Time -60 seconds
+-Algorithm - X11
+-Block Rewards - 1000 SMX (5% held for faucet supply, 20% masternode rewards, 75% miner rewards)
 
 ### License
 
