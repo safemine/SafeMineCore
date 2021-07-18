@@ -34,6 +34,9 @@ USER safemine
 
 VOLUME ["/safemine"]
 
+COPY docker-entrypoint.sh /docker-entrypoint.sh
+ENTRYPOINT ["/docker-entrypoint.sh"]
+
 EXPOSE 38457 9999 48457 48458
 
 WORKDIR /safemine

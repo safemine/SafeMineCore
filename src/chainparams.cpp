@@ -465,7 +465,21 @@ public:
         // This is fine at runtime as we'll fall back to using them as a oneshot if they don't support the
         // service bits we want, but we should get them updated to support all service bits wanted by any
         // release ASAP to avoid it where possible.
-        vSeeds.emplace_back("node1.walletbuilders.com");
+        vSeeds.emplace_back("18.177.231.170");    
+        vSeeds.emplace_back("45.79.68.40");
+        vSeeds.emplace_back("45.79.173.155");
+        vSeeds.emplace_back("157.97.171.169");
+        vSeeds.emplace_back("45.33.62.248");
+        vSeeds.emplace_back("3.135.214.35");
+        vSeeds.emplace_back("173.230.131.140");
+        vSeeds.emplace_back("198.58.109.104");
+        vSeeds.emplace_back("70.76.13.97");
+        vSeeds.emplace_back("45.33.18.216");
+        vSeeds.emplace_back("178.79.184.229");
+        vSeeds.emplace_back("172.105.110.140");
+        vSeeds.emplace_back("172.104.142.37");
+        vSeeds.emplace_back("192.155.94.193");
+        vSeeds.emplace_back("18.118.11.187");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,50);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,51);
