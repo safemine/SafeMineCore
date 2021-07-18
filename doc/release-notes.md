@@ -3,7 +3,7 @@ SafeMine Core version 1.1.0.0
 
 Release is now available from:
 
-  <https://www.safemine.org/downloads/#wallets>
+  <https://github.com/safemine/SafeMineCore/releases>
 
 This is a new major version release, bringing new features, various bugfixes
 and other improvements.
@@ -12,7 +12,7 @@ This release is mandatory for all nodes.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/safeminepay/safemine/issues>
+  <https://github.com/safemine/SafeMine/issues>
 
 
 Upgrading and downgrading
