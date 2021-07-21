@@ -19,7 +19,6 @@ The 0.0.1.0 branch was created as an initial release to the public after major b
 - Changed splitting strategy to deal with some edge cases (endless splitting for a few users)
 - Updated stable proto version
 - Testnet merges use two, while mainnet merges will use 3 participants
-- Fixed the endless splitting issue causes by splitting 1000DRK and not making a DS compatible input
 - Debugged progress bar
 - New terms of use window
 - Improvement for dealing with splitting large inputs

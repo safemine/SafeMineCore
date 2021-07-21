@@ -3,7 +3,7 @@ SafeMine Core version 1.1.0.0
 
 Release is now available from:
 
-  <https://www.safemine.org/downloads/#wallets>
+  <https://github.com/safemine/SafeMineCore/releases>
 
 This is a new major version release, bringing new features, various bugfixes
 and other improvements.
@@ -12,7 +12,7 @@ This release is mandatory for all nodes.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/safeminepay/safemine/issues>
+  <https://github.com/safemine/SafeMine/issues>
 
 
 Upgrading and downgrading
@@ -103,4 +103,4 @@ SafeMine Core tree 0.12.1.x was a fork of Bitcoin Core tree 0.12.
 
 These release are considered obsolete. Old release notes can be found here:
 
-- [v0.0.1.0](https://github.com/safeminepay/safemine/blob/master/doc/release-notes/safemine/release-notes-0.0.1.0.md) released July/14/2021
+- [v0.0.1.0](https://github.com/safemine/SafeMineCore/blob/main/doc/release-notes/safemine/release-notes-0.0.1.0.md) released July/14/2021
